@@ -5,4 +5,4 @@ d = float(input("Введите четвертое число"))
 sum1 = a + b
 sum2 = c + d
 rez = sum1/sum2
-print("% .2f" % rez)
+print(f'{rez:.2f}')
